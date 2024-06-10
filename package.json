@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "scripts": {
+    "start": "concurrently \"nodemon server.js\" \"live-server public --port=3001\""
+  }
+}
